@@ -1,7 +1,7 @@
 /*Mobile first bitches*/
 @media (max-width: 768px) {
   .row {display:block !important}
-  #description: display:none;
+  p #description: {display:none;}
 }
 
 .col-sm {margin-bottom: 1em}  
