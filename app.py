@@ -36,9 +36,9 @@ def predict():
     # Get model
     print('Category: ', category, 'Country:', country)
     print('Fetching model and version......')
-    model = replicate.models.get("mehdidc/feed_forward_vqgan_clip")
+    model = replicate.models.get("stability-ai/stable-diffusion")
     version = model.versions.get(
-        "28b5242dadb5503688e17738aaee48f5f7f5c0b6e56493d7cf55f74d02f144d8"
+        "6359a0cab3ca6e4d3320c33d79096161208e9024d174b2311e5a21b6c7e1131c"
     )
     # Instantiate news API client
     print('Instantiating News API Client......')
